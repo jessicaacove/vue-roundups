@@ -1,0 +1,159 @@
+[{
+  "_account": "DgMjP0paP3fy3j5xww8YipOKBbgwbjuzNPPK3",
+  "_id": "NwDbjmpNjaceB6wQKKdgcZJ7g0BLwvcpgv313",
+  "amount": 15.75,
+  "date": "2016-03-21",
+  "name": "FIVERR",
+  "meta": {
+    "payment_processor": "PayPal",
+    "location": {
+      "city": "San Jose",
+      "state": "CA"
+    }
+  },
+  "pending": false,
+  "type": {
+    "primary": "special"
+  },
+  "category": ["Transfer", "Third Party", "PayPal"],
+  "category_id": "21010004",
+  "score": {
+    "location": {
+      "city": 1,
+      "state": 1
+    },
+    "name": 1
+  }
+}, {
+  "_account": "DgMjP0paP3fy3j5xww8YipOKBbgwbjuzNPPK3",
+  "_id": "e5dj0PON0pi1L4vDkkZBTz5b8xpko4cLPQa8Y",
+  "amount": 25.34,
+  "date": "2016-03-21",
+  "name": "Noble Thai & Sushi Bistro",
+  "meta": {
+    "location": {
+      "address": "6230 W Indiantown Rd",
+      "city": "Jupiter",
+      "coordinates": {
+        "lat": 26.93366136867966,
+        "lon": -80.13135736156796
+      },
+      "state": "FL",
+      "zip": "33458"
+    }
+  },
+  "pending": false,
+  "type": {
+    "primary": "place"
+  },
+  "category": ["Food and Drink", "Restaurants", "Thai"],
+  "category_id": "13005004",
+  "score": {
+    "location": {
+      "address": 1,
+      "city": 1,
+      "state": 1,
+      "zip": 1
+    },
+    "name": 1
+  }
+}, {
+  "_account": "DgMjP0paP3fy3j5xww8YipOKBbgwbjuzNPPK3",
+  "_id": "Yk0DLgeNLEsAaBkvOOK0sR5YeqywKLun419Kd",
+  "amount": 38.92,
+  "date": "2016-03-21",
+  "name": "MARRIOTT WPALM BC W",
+  "meta": {
+    "location": {
+      "city": "Palm Beach",
+      "state": "FL"
+    }
+  },
+  "pending": false,
+  "type": {
+    "primary": "place"
+  },
+  "score": {
+    "location": {
+      "city": 1,
+      "state": 1
+    },
+    "name": 0.2
+  }
+}, {
+  "_account": "DgMjP0paP3fy3j5xww8YipOKBbgwbjuzNPPK3",
+  "_id": "z3JDkPbzkMC65eQBMM0ZcLw6aPqnrMiz1NK65",
+  "amount": 10.99,
+  "date": "2016-03-18",
+  "name": "DNH*GODADDY.COM AZ RECURRING CKCD 4816",
+  "meta": {
+    "location": {}
+  },
+  "pending": false,
+  "type": {
+    "primary": "digital"
+  },
+  "score": {
+    "location": {},
+    "name": 0.2
+  }
+}, {
+  "_account": "DgMjP0paP3fy3j5xww8YipOKBbgwbjuzNPPK3",
+  "_id": "mMB5ZvNzZEUoKX40OO6kTgLP1ae398umAqNLJ",
+  "amount": 29.99,
+  "date": "2016-03-16",
+  "name": "DNH*GODADDY.COM AZ RECURRING CKCD 4816",
+  "meta": {
+    "location": {}
+  },
+  "pending": false,
+  "type": {
+    "primary": "digital"
+  },
+  "score": {
+    "location": {},
+    "name": 0.2
+  }
+}, {
+  "_account": "DgMjP0paP3fy3j5xww8YipOKBbgwbjuzNPPK3",
+  "_id": "dZb0v1ONvpIV6XqaKK8yIOLw8DmyRkH8wEDxp",
+  "amount": 28.13,
+  "date": "2016-03-08",
+  "name": "DONNINI ENTERP",
+  "meta": {
+    "location": {
+      "city": "Jupiter",
+      "state": "FL",
+      "store_number": "000536900"
+    }
+  },
+  "pending": false,
+  "type": {
+    "primary": "place"
+  },
+  "score": {
+    "location": {
+      "city": 1,
+      "state": 1
+    },
+    "name": 0.2
+  }
+}, {
+  "_account": "DgMjP0paP3fy3j5xww8YipOKBbgwbjuzNPPK3",
+  "_id": "wP4w3Lbz3MHQeYbzMMkoTAwO3NzLnRuex9rjo",
+  "amount": 1.99,
+  "date": "2016-03-07",
+  "name": "SELLER CA CKCD 5968",
+  "meta": {
+    "payment_processor": "Google Wallet",
+    "location": {}
+  },
+  "pending": false,
+  "type": {
+    "primary": "unresolved"
+  },
+  "score": {
+    "location": {},
+    "name": 0.2
+  }
+}]

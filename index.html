@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Vue</title>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <button v-on:click="getTransactions"> Round up transactions </button>
+    <p> {{ roundups }}</p>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        roundups: 0
+      },
+      methods: {
+        humanizeURL: function (url) {
+          return url
+            .replace(/^https?:\/\//, '')
+            .replace(/\/$/, '')
+        },
+        getTransactions: function (event) {
+
+          // let myVue = this
+
+          axios.get('/transactions')
+            .then( (response) => {
+              this.roundups = response.data.reduce (function(total, transaction) {
+                return total + (1-(transaction.amount%1))
+              }, 0)
+              console.log(this.roundups);
+            })
+            .catch(function (error) {
+              console.log(error);
+          });
+        }
+      }
+    })
+  </script>
+
+</body>
+</html>
